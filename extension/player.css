@@ -1,0 +1,6 @@
+/* Keep the official player and its branding; prevent sharing and outbound links. */
+a { pointer-events:none !important; }
+[data-test="share-button"] { display:none !important; }
+/* The large bottom control owns playback. Keep this DOM button for the bridge. */
+[data-test="play-button"], [data-test="live-play-button-wrapper"] { display:none !important; }
+* { -webkit-tap-highlight-color:transparent; }
