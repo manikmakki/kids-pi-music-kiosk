@@ -1,5 +1,7 @@
 # Pi touchscreen music player
 
+![Screenshot of the application view](preview.png)
+
 Target: `pi@192.x.y.z`, Raspberry Pi 3 B+, Debian 13 arm64.
 
 The `kiosk/` directory contains the complete installer and application. It uses
